@@ -1,4 +1,4 @@
-function RColor(){
+export default function RColor(){
   let a = {
     number_to_hex(c) {
       let hex = c.toString(16);
@@ -126,8 +126,4 @@ function RColor(){
   };
 }
 
-
-  var getColor = new RColor();
-
-  var colors = getColor.getList({start:400,end:1800,count:80,log:true,brightness:10});
   
