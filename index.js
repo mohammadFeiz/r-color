@@ -82,6 +82,7 @@ export default function RColor(){
           console.log(`%c ${color} ${i}`, 'background: '+color+'; color: #000');
         }
       }
+      return colors;
     }
   };
   var r = 255, g = 0, b = 0,colors = [],color;
@@ -126,4 +127,5 @@ export default function RColor(){
   };
 }
 
-  
+
+ 
