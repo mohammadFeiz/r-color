@@ -118,6 +118,7 @@ export default function RColor(){
           console.log(`%c ${color} ${i}`, 'background: '+color+'; color: #000');
         }
       }
+      return colors;
     }
   };
   var offset = 6;
